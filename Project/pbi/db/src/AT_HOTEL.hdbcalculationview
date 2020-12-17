@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="pbi.db::AT_HOTEL" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="AT_HOTEL"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="pbi.db::HOTEL">
+    <resourceUri>pbi.db::HOTEL</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="pbi.db::HOTEL">
+  <attributes>
+    <attribute id="HNO" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HNO"/>
+      <keyMapping columnObjectName="HOTEL" columnName="HNO"/>
+    </attribute>
+    <attribute id="NAME" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME"/>
+      <keyMapping columnObjectName="HOTEL" columnName="NAME"/>
+    </attribute>
+    <attribute id="ZIP" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZIP"/>
+      <keyMapping columnObjectName="HOTEL" columnName="ZIP"/>
+    </attribute>
+    <attribute id="ADDRESS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDRESS"/>
+      <keyMapping columnObjectName="HOTEL" columnName="ADDRESS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

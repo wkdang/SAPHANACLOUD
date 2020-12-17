@@ -1,0 +1,12 @@
+{
+	"role": {
+	"name": "pbi.db::analytics",
+	"schema_privileges": [
+	{
+		"privileges": [
+			"SELECT"
+]
+}
+]
+}
+}

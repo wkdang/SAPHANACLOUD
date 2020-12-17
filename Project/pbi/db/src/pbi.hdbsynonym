@@ -1,0 +1,33 @@
+{
+    "pbi.db::ROOM": {
+        "target": {
+            "object": "ROOM",
+            "schema": "PBI"
+        }
+    },
+    
+    "pbi.db::HOTEL": {
+        "target": {
+            "object": "HOTEL",
+            "schema": "PBI"
+        }
+    },
+    
+    "pbi.db::CITY": {
+        "target": {
+            "object": "CITY",
+            "schema": "PBI"
+        }
+    },
+    
+    "pbi.db::ROOMDETAIL": {
+        "target": {
+            "object": "ROOMDETAIL",
+            "schema": "PBI"
+        }
+    }
+	
+	
+	
+	
+}

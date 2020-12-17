@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="pbi.db::AT_ROOMDETAIL" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="AT_ROOMDETAIL"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="pbi.db::ROOMDETAIL">
+    <resourceUri>pbi.db::ROOMDETAIL</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="pbi.db::ROOMDETAIL">
+  <attributes>
+    <attribute id="TYPE" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TYPE"/>
+      <keyMapping columnObjectName="ROOMDETAIL" columnName="TYPE"/>
+    </attribute>
+    <attribute id="NAME" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME"/>
+      <keyMapping columnObjectName="ROOMDETAIL" columnName="NAME"/>
+    </attribute>
+    <attribute id="SMOKE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SMOKE"/>
+      <keyMapping columnObjectName="ROOMDETAIL" columnName="SMOKE"/>
+    </attribute>
+    <attribute id="SIZE" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SIZE"/>
+      <keyMapping columnObjectName="ROOMDETAIL" columnName="SIZE"/>
+    </attribute>
+    <attribute id="FLOOR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLOOR"/>
+      <keyMapping columnObjectName="ROOMDETAIL" columnName="FLOOR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="100" y="115"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

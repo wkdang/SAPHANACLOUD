@@ -1,0 +1,14 @@
+{
+    "pbi-schema": {
+        "object_owner": {
+            "roles": [
+                "pbi::external_access_g"
+            ]
+        },
+        "application_user": {
+            "roles": [
+                "pbi::external_access_g"
+            ]
+        }
+    }
+}
